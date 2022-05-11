@@ -4,7 +4,7 @@
    Gabriel Ribeiro Fonseca de Freitas - 12542651 <br>
 
 # Requisitos:
-   1 - O nosso e-commerce é a “USPão”,uma padaria online que realiza entregas de pães,bolos,doces, entre outros produtos.
+   </t>1 - O nosso e-commerce é a “USPão”,uma padaria online que realiza entregas de pães,bolos,doces, entre outros produtos.
 
    2 - Nosso site possui dois tipos de usuários:
         2.1 - O consumidor: aquele que tem acesso ao sistema para comprar os produtos
