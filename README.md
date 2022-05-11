@@ -26,12 +26,13 @@
    
    Assim que abrir o site, o usuário entrará na Main Page,onde vai se deparar com o nosso desconto do dia em destaque ao meio e com a nossa "sidebar” logo ao lado superior esquerdo.Essa sidebar,presente em quase todas as páginas, permite que o usuário trafegue por todo o site com muita facilidade,como pode ser visto no diagrama:
 
-<img src = "img/diagrama.png">
+<img src = "diagrama.png">
 
-O usuário tem acesso ao cardápio com diversas opções de produtos,que podem ser colocados no carrinho e, a partir disso,direcionados à página de pagamento.
+O usuário tem acesso ao cardápio com diversas opções de produtos,que podem ser colocados no carrinho e, a partir disso,direcionados à [página de pagamento](https://www.figma.com/proto/HlBWvq9y5X4Qf4ujMj5DDb/Untitled?node-id=2%3A2&scaling=min-zoom&page-id=0%3A1).
 
-O usuário também poderá se cadastrar em nosso site,tendo acesso a uma página do cliente com sua foto de perfil,email,telefone e sua opção de café automático.O café automático é um sistema em que o usuário cria o seu carrinho de compras,coloca um crédito em sua carteira virtual e escolhe o horário em que deseja receber aqueles prudutos.Com isso,todos os dias a padaria,através do sistema, é avisada com uma certa antecedência e envia para a casa da pessoa aqueles produtos sem que a pessoa precise solicitar o pedido todos os dias.
-   A página do administrador é de acesso somente da padaria,porque através dessa página é possível observar as quantidades de todos os produtos no estoque e reforçá-lo quando necessário.
+O usuário também poderá se cadastrar em nosso site,tendo acesso a uma [página do cliente](https://www.figma.com/proto/HlBWvq9y5X4Qf4ujMj5DDb/Untitled?node-id=20%3A289&scaling=min-zoom&page-id=17%3A234) com sua foto de perfil,email,telefone e sua opção de café automático.O café automático é um sistema em que o usuário cria o seu carrinho de compras,coloca um crédito em sua carteira virtual e escolhe o horário em que deseja receber aqueles prudutos.Com isso,todos os dias a padaria,através do sistema, é avisada com uma certa antecedência e envia para a casa da pessoa aqueles produtos sem que a pessoa precise solicitar o pedido todos os dias.
+   
+A [página do administrador](https://www.figma.com/proto/HlBWvq9y5X4Qf4ujMj5DDb/Untitled?node-id=20%3A327&scaling=min-zoom&page-id=20%3A326) é de acesso somente da padaria,porque através dessa página é possível observar as quantidades de todos os produtos no estoque e reforçá-lo quando necessário.
 
 # Comentários sobre o código:
 
