@@ -23,14 +23,14 @@
 
 <img src = "img/diagrama.png">
 
-   O usuário tem acesso ao cardápio com diversas opções de produtos,que podem ser colocados no carrinho e, a partir disso,direcionados à página de pagamento.
-   O usuário também poderá se cadastrar em nosso site,tendo acesso a uma página do cliente com sua foto de perfil,email,telefone e sua opção de café automático.O café automático é um sistema em que o usuário cria o seu carrinho de compras,coloca um crédito em sua carteira virtual e escolhe o horário em que deseja receber aqueles prudutos.Com isso,todos os dias a padaria,através do sistema, é avisada com uma certa antecedência e envia para a casa da pessoa aqueles produtos sem que a pessoa precise solicitar o pedido todos os dias.
+  <p> O usuário tem acesso ao cardápio com diversas opções de produtos,que podem ser colocados no carrinho e, a partir disso,direcionados à página de pagamento.</p>
+   <p>O usuário também poderá se cadastrar em nosso site,tendo acesso a uma página do cliente com sua foto de perfil,email,telefone e sua opção de café automático.O café automático é um sistema em que o usuário cria o seu carrinho de compras,coloca um crédito em sua carteira virtual e escolhe o horário em que deseja receber aqueles prudutos.Com isso,todos os dias a padaria,através do sistema, é avisada com uma certa antecedência e envia para a casa da pessoa aqueles produtos sem que a pessoa precise solicitar o pedido todos os dias.</p>
    A página do administrador é de acesso somente da padaria,porque através dessa página é possível observar as quantidades de todos os produtos no estoque e reforçá-lo quando necessário.
 
 # Comentários sobre o código:
 
 # Plano de testes:
-    Para essa primeira parte do projeto,foram realizados apenas códigos no html/css e diagramas no Figma.
+   Para essa primeira parte do projeto,foram realizados apenas códigos no html/css e diagramas no Figma.
 
 # Procedimentos de execução:
 
