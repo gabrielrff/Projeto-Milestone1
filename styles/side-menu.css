@@ -1,0 +1,49 @@
+.side-menu{
+    background: rgb(246, 170, 65);
+    height: 100%;
+    width: 25%;
+    /* padding: 60px 0; */
+    margin: 0;
+    list-style: none;
+    text-align: left;
+    position: fixed;
+    left: -25%;
+    top: 0;
+    transition: all 0.5s;
+    z-index: 1;
+    font-size: 25px;
+}
+
+.side-menu ul{
+    list-style: none;
+}
+
+.side-menu li{
+    padding: 30px 0;
+}
+
+.side-menu li:hover {
+    background: rgb(16, 148, 171);
+}
+  
+.side-menu a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    transition:all 0.3s;
+}
+
+#toggle{
+    display: none;
+}
+  
+label[for="toggle"] {
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 40px;
+}
+  
+input#toggle:checked + .side-menu{
+    left: 0;
+}

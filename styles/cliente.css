@@ -1,0 +1,54 @@
+#pagina{background-image:url(fundopao.jfif)}
+
+#areaCliente{
+            width: 50%;
+            margin: auto;
+            padding: 1%;
+            height: 500px;
+               
+            }
+
+
+#perfil{background-color: #f6aa41;
+        height: 50%;
+        width: 30%;
+        opacity: 100%;
+        overflow: visible;
+        padding: 5%;
+        border-radius: 20%;
+        height: 60%;
+        display: inline-block;
+    }
+
+#imgPerfil{width: 60%;
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+}
+
+#nomePerfil{font-size: 130%;
+    position: relative;
+    margin: auto;
+    padding-left: 6%;
+            
+}
+
+.destaque{font-size: large;
+    -webkit-text-stroke-width: 0.5px;}
+
+#historico{position: relative;
+    background-color: #f6aa41;
+    display: inline-block;
+    margin-left: 10%;
+    padding-left: 10px;
+    border-radius: 20%;
+    }
+
+#fotoDinheiro{width: 10%;
+
+border-radius: 20px;}
+
+#fotoCredito{width: 20px;
+margin-right: 8px;}

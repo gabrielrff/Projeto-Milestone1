@@ -1,0 +1,41 @@
+#pagina{
+    background-image: url(./fundoPadaria.jpg);
+}
+
+#tituloForm{
+    margin:auto;
+    text-align: center;
+}
+
+
+#form{
+    box-shadow: none;
+    border-style: none;
+}
+
+#tituloDiv{
+    background-color: #f6aa41;
+    width: 80%;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin: auto;
+}
+
+
+#formDiv{
+    background-color:  #f6aa41;  
+    width: 50% !important ;
+    margin:auto;
+    margin-top:50px;
+    padding: 0%;
+    margin-bottom: 5%;
+    padding-top: 5px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+#mensagemForm{
+    width: 50%;
+    height: 150px;
+}

@@ -1,0 +1,59 @@
+#imagFundo{background-image: url(../img/fundoPadaria.jpg);}
+
+#symbolCardapio{
+        width: 400px;
+        padding: 10px;
+        margin: 10px;
+}
+#titleCardapio{
+        padding:0px;
+        margin: auto;
+        font-size: 50px;
+        color: rgb(114, 115, 118);
+        text-align: center;
+        text-shadow: 1px 1px black;
+}
+
+#opcoes{
+        position: relative;
+        left: 1500px;
+        bottom: 40px;
+}
+#imgCarrinho{
+        width: 40px;
+        position: relative;
+        left: 50px;
+        bottom: 40px;
+}
+.titleConteudo{
+        position: relative;
+        margin: auto;
+        text-align: center;
+        font-size: 40px;
+        padding: 20px;
+        color: rgb(114, 115, 118);
+        background-color: #f6aa41;
+}
+
+
+.imgCardapio{
+        width: 150px;
+        border-radius: 10px 10px 10px 10px;
+}
+
+#conteudo{
+        width: 50% !important;
+        margin:auto;
+        padding-top: 20px;
+        overflow: scroll;
+        height: 700px;
+        background-color:rgb(123, 89, 61); ;
+        }
+
+p{
+        color: antiquewhite;
+}
+
+h3{
+        color: antiquewhite;
+}

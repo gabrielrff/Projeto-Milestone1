@@ -1,0 +1,49 @@
+#cabecalho{
+    width: 100%;
+    margin-top: 0px;
+    border-bottom: 20px solid rgb(16, 148, 171);
+    background-color: rgb(246, 170, 65);
+    height: 100px;
+}
+  
+#cabecalho .navbar {
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    width: 5%;
+    height: 100%;
+}
+
+#cabecalho{
+    width: 100%;
+    margin-top: 0px;
+    border-bottom: 20px solid rgb(16, 148, 171);
+    background-color: rgb(246, 170, 65);
+    height: 100px;
+}
+  
+#cabecalho .navbar {
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    /* position: fixed; */
+    width: 5%;
+    height: 100%;
+    /* top: 0; */
+    /* border: 1px solid black; */
+}
+
+#cabecalho #logo{
+    position: relative;
+    float: right;
+    /* padding-top: 15px; */
+    width: 90%;
+    height: 100%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+#cabecalho #logo img{
+    margin-top: 15px;
+}
+  

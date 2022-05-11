@@ -1,0 +1,15 @@
+#pagina{
+    background-image: url(../img/fundoPadaria.jpg);
+}
+
+#cadastro{
+    background-color: rgb(246, 170, 65);
+    margin: auto;
+    width: 35%;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+#cadastroForm{
+    width: 100%;
+}
