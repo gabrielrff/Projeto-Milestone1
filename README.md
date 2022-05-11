@@ -1,7 +1,7 @@
 # Milestone1 - Report
-Pedro Afonso Perez Chagas - 7777970
-Paulo Henrique dos Santos Almeida - 12543926
-Gabriel Ribeiro Fonseca de Freitas - 12542651
+Pedro Afonso Perez Chagas - 7777970 <br>
+Paulo Henrique dos Santos Almeida - 12543926 <br>
+Gabriel Ribeiro Fonseca de Freitas - 12542651 <br>
 
 # Requisitos:
 1 - O nosso e-commerce é a “USPão”,uma padaria online que realiza entregas de pães,bolos,doces, entre outros produtos.
