@@ -11,6 +11,8 @@
   2.1 - O consumidor: aquele que tem acesso ao sistema para comprar os produtos
   
   2.2 - O administrador: neste caso,este usuário é a própria padaria.Responsável por analisar os estoques dos produtos e definir a logística de venda.
+  
+  
 
    3 - Nossos consumidores podem se cadastrar no sistema e terem sua própria conta.Assim, guardamos essas informações cadastradas (nome,telefone,email,data de nascimento,endereço) em nosso banco de dados.
 
