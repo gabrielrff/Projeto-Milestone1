@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cardápio</title>
+        <link rel="stylesheet" type="text/css" href="../styles/main.css">
+        <link rel="stylesheet" type="text/css" href="../styles/header.css">
+        <link rel="stylesheet" type="text/css" href="../styles/side-menu.css">
+        <link rel="stylesheet" href="../styles/cardapio-content.css" >
+        <link rel="stylesheet" type="text/css" href="../styles/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    </head>
+
+    <body id="imagFundo">
+
+        <input type="checkbox" id="toggle" name="toggle">
+
+        <div class="side-menu">
+            <ul>
+                <li><label for="toggle"><i class="fa fa-close"></i></label></li>
+                <li><a href="main.html">Início</a></li>
+                <li><a href="about.html">Sobre Nós</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Cadastro</a></li>
+            </ul>
+        </div>
+
+        <div id="cabecalho">
+
+            <div class="navbar">
+                <label for="toggle"><i class="fa fa-bars" style="font-size: 24px;"></i></label>
+            </div>
+
+            <div id="logo">
+                <img src="../img/logo.png">
+            </div>
+            <!-- <div id="text">
+                USPão
+            </div> -->
+        </div>
+
+        <br>
+
+        <!--Página inteira-->
+        <div id="pagCardapio">
+            <!--Cabeçalho do cardápio-->
+            <div id="cabecalho">
+                <h1 id="titleCardapio">Cardápio</h1>
+                <a href="paginaDePagamento" target="_blank"><img src="../img/carrinho.png" alt="carrinho" id="imgCarrinho"></a>
+                <!-- <select name="opcoes" id="opcoes">
+                    <option value="pao">Pâes</option>
+                    <option value="biscoito">Biscoitos</option>
+                    <option value="doce">Doces</option>
+                </select>  -->
+            </div>
+            <!--Conteúdo do cardápio-->
+            <div id="conteudo">
+                <table class="tableConteudo">
+                    <caption class="titleConteudo">Pães</caption>
+                    <tbody>
+                        <tr>  
+                        <!--Pães-->    
+                            <td class="imagem">
+                                <img src="../img/paoSal.jpg" alt="PãoDeSal" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Pão Francês</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Farinha de trigo, Sal, Fermento, Reforçador, Água, Óleo</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/baguetefrance.jpg" alt="Baguete" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Baguete</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Farinha de trigo, Fermento, Água, Sal</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/paoDeBatata.jpg" alt="PãoDeBatata" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Pão de Batata</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Farinha de trigo, Reforçador, Fermento, Margarina, Ovo, Açúcar, Leite, Sal, batata, Óleo</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/paoComCreme.jpg" alt="PãoComCreme" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Pão com Creme</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Farinha de trigo, Açúcar, Sal, Margarina, Reforçador,Ovo, Fermento, Água e creme de confeiteiro</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+
+                        <tr>    
+                            <td class="imagem">
+                                <img src="../img/paoForma.jpg" alt="PãoDeForma" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Pão de Forma</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Farinha de trigo, Sal, Fermento, Ovo, Margarina, reforçador, Água</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td> 
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="tableConteudo">
+                    <tbody>
+                        <caption class="titleConteudo">Pães de Queijo</caption>
+                        <!--Pães de Queijo-->
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/paoDeQueijo.jpg" alt="PãoDeQueijo" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Pão de Queijo</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Polvilho, Fécula, Sal, Queijo, Ovos, Leite, Óleo, Água</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/paoQurijoRecheado.jpg" alt="PãoDeQueijoPresunto" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Pão de Queijo com<br>Presunto</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Polvilho, Fécula, Sal, Queijo, Ovos, Leite, Óleo, Água, Presunto, Cheiro Verde</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/paoDeQueijoCarne.jpg" alt="PãoDeQueijoCarne" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Pão de Queijo com<br>Carne</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Polvilho, Fécula, Sal, Queijo, Ovos, Leite, Óleo, Água, Goiabada</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/paoDeQueijoFrango.jpg.jpg" alt="PãoDeQueijoFrngo" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Pão de Queijo com<br>Frango</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Polvilho, Fécula, Sal, Queijo, Ovos, Leite, Óleo, Água, frango, Cheiro Verde, milho e requeijão</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="tableConteudo">
+                    <tbody>
+                        <caption class="titleConteudo">Biscoitos</caption>
+                        <!--Biscoitos-->
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/biscoitoFofao.jpg" alt="BiscoitoFofão" class="imgCardapio">
+                            </td>
+                                <td class="descricao">
+                                    <h3>Biscoito Fofão</h3>
+                                    <p>Preço:</p>
+                                    <p>Descrição: Polvilho, Fécula, Sal, Água, Óleo, Ovos</p>
+                                    <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/biscoitoBarra.jpg" alt="BiscoitoBarra" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Biscoito Barra</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Polvilho, Sal, Leite, Ovo, Óleo</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/biscoitoToalha.jpg" alt="BiscoitoToalha" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Biscoito Toalha</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Fécula, Polvilho, Óleo, Água, Sal, Ovo</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/biscoitoFritoSal.jpg" alt="BiscoitoFritoSal" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Biscoito Frito Salgado</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Polvilho, Fécula, Ovos, Água, Óleo, Sal</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/biscoitoFritoDo.jpg" alt="biscoitoFritoDoce" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Biscoito Frito Doce</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Farinha de trigo, Fécula, Polvilho, Queijo, Fermento, Açúcar, Ovos</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="tableConteudo">
+                    <tbody>
+                        <caption class="titleConteudo">Doces</caption>
+                        <!--Doces-->
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/bolinhoChuva.jpg" alt="BolinhoChuva" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Bolinho de Chuva</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Trigo, Açúcar, Fermetno, Ovos, Leite</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/bomNozes.jpg" alt="BomBomNozes" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Bombom Trufado com<br>Nozes </h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Leite Condensado, Coco, Margarina, Cereja, Chocolate ao leite</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/brigadeiro.jpg" alt="Brigadeiro" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Brigadeiro Crocante</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Leite condensado, Ovo, Cacau em pó, Chocolatado em pó</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/caju.jpg" alt="Cajuzinho" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Cajuzinho</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Leite Condensado, Amendoin, Chocolate em pó, Cacau em pó, Margarina</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/boloNiver.jpg" alt="Bolo de Aniversário" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Bolo de Aniversário</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Farinha de trigo, Ovos, Açúcar, Amido de milho, fermento, Água, Chantilly, Guaraná, Doce de leite, Recheio Frutas, Corante em gel</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="imagem">
+                                <img src="../img/boloLimao.jpg" alt="BoloDeLimão" class="imgCardapio">
+                            </td>
+                            <td class="descricao">
+                                <h3>Bolo de Bolo Limão</h3>
+                                <p>Preço:</p>
+                                <p>Descrição: Pré-mistura para bolo, Iogurte Natural, Óleo, Gelatina, Ovos, leite Condensado, Limão</p>
+                                <button>Adicionar ao carrinho</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table> 
+            
+            </div>
+            
+        </div>
+
+        <footer>
+
+            <div class="info" id="contatos">
+                <h3>Contatos</h3>
+                <ul>
+                    <li><i class="fa fa-phone"></i> <a href="tel:+551640028922">(16)40028922</a></li>
+                    <li><i class="fa fa-telegram"></i>  <a href="https://telegram.me/uspao">@uspao</a></li>
+                    <li><i class="fa fa-envelope"></i>  <a href="mailto:baguete@uspao.br">baquete@uspao.br</a></li>
+                </ul>
+            </div>
+
+            <div class="info" id="enderecos">
+                <h3>Nossas filiais</h3>
+                <ul>
+                    <li>Rua da Entrada da Arquitetura, 320 - Canindé</li>
+                    <li>Rua da Entrada da Computação, 420 - Rio de Janeiro</li>
+                    <li>Rua da Entrada da Produção, 520 - Araxás</li>
+                </ul>   
+            </div>
+
+            <div id="end">
+                <h5>USP 2022</h5>
+            </div>
+
+        </footer>
+
+    
+    </body>
+</html>
