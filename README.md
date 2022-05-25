@@ -1,5 +1,4 @@
 # Milestone1 - Report
-   Pedro Afonso Perez Chagas - 7777970 <br>
    Paulo Henrique dos Santos Almeida - 12543926 <br>
    Gabriel Ribeiro Fonseca de Freitas - 12542651 <br>
 
