@@ -1,5 +1,4 @@
-# Milestone1 - Report
-   Paulo Henrique dos Santos Almeida - 12543926 <br>
+# Milestone2 - Report
    Gabriel Ribeiro Fonseca de Freitas - 12542651 <br>
 
 # Requisitos:
@@ -34,11 +33,25 @@ O usuário também poderá se cadastrar em nosso site,tendo acesso a uma [págin
 A [página do administrador](https://www.figma.com/proto/HlBWvq9y5X4Qf4ujMj5DDb/Untitled?node-id=20%3A327&scaling=min-zoom&page-id=20%3A326) é de acesso somente da padaria,porque através dessa página é possível observar as quantidades de todos os produtos no estoque e reforçá-lo quando necessário.
 
 # Comentários sobre o código:
+   Sem comentários.
 
 # Plano de testes:
-   Para essa primeira parte do projeto,foram realizados apenas códigos no html/css e diagramas no Figma.
-
+   Logo que abrir o projeto,você será direcionado à HomePage,onde logo encontrará a nossa funcionalidade especial,os destaques do dia.Mas a baixo na nessa página,você poderá conhecer um pouco mais da nossa história na seção "O que é USPão?".Por último,você poderá realizar o login com sua conta na seção "Conecte-se com sua conta USPão".Caso não tenha uma conta ainda,basta clicarem cadastre-se e você será redirecionado à página de cadastro.<br>
+   
+   Em nossa Navigation Bar,você poderá clicar em três outros liks que o direcionarão a outras partes do projeto:o cardápio,o cadastro e a página de administrador.<br>
+   
+   No cardápio,você encontrará várias opções de produtos,podendo clicar em seus cards para adioná-los ao carrinho de compras.No carrinho,ao clicarem finalizar compra,você será direcionado à página de pagamento,onde é possível confirmar seus pedidos e colocar suas informações pessoais,referentes ao seu endereço e dados do cartão de cŕedito.<br>
+   
+   Na página do administrador,é possível adicionar novos produtos que serão direcionados ao cardápio para atualizar o estoque da loja.<br>
+   
+   Por fim,na página de cadastro,é possível realizar seu cadastro para se tornar um membro USPão.
+   
+   
 # Procedimentos de execução:
+   Para rodar a aplicação,você precisa ter a versão  17.3.1 do node em seu computador.<br>
+   
+   Com isso,após baixar o repositório milestone-2,rode "$ npm run serve" e clique no link que aparecer em "Local:(...)"
+   
 
 # Problemas:
 
